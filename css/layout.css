@@ -1,0 +1,278 @@
+/***布局layout***/
+
+/**************************************************************************************************/	
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/***Eric Meyer’s CSS 清零代码***/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+/**************************************************************************************************/	
+
+
+
+
+
+
+
+
+/**盒子和浏览器的四周有8px宽的空隙。这是由于浏览器的默认的填充和边界造成的。消除这个空隙，就需要在css文件中写入margin: 0;**/
+body
+       { 
+	 line-height: 120%           /**整个页面行距增加**/  
+	 /*** 
+     margin-top: 0px;
+     margin-right: 0px;
+     margin-bottom: 0px; 
+     margin-left: 0px;
+ 
+    
+	 padding-top: 0%;
+     padding-right: 0%;
+     padding-bottom: 0px;
+     padding-left: 0%;	
+ 
+     border-top-style:solid;
+     border-right-style:solid;
+     border-bottom-style:solid;
+     border-left-style:solid;
+     ***/
+	
+    }                                             
+
+/**************************************************************************************************/	
+	
+	
+
+/***页面层容器***/
+
+.container 
+        {   /*** 
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 14%;
+		***/
+		/***
+        margin-right: 1px;
+		
+		
+        padding-top: 0px;
+        padding-bottom: 0px;
+		***/
+		
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+
+/**************************************************************************************************/	
+
+
+/*** Horizontal水平横条***/
+.Horizontal
+        {    
+		/*** 
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+		
+        padding-top: 0px;
+        padding-right: 0%;
+        padding-bottom: 0px;
+        padding-left: 0%;
+		***/
+		height: 10px;	
+		
+    }
+	
+
+
+
+
+
+
+
+
+/**************************************************************************************************/	
+
+
+
+/*** 页面头部***/
+
+.header
+        {    
+		/*** 
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+		
+        padding-top: 0px;
+        padding-right: 0%;
+        padding-bottom: 0px;
+        padding-left: 0%;
+		***/
+    }
+	
+	
+/**************************************************************************************************/	
+
+	
+	
+/**页面主体PageBody**/
+
+.pagebody  
+        {     
+		/***
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+		
+        padding-top: 0px;
+        padding-right: 0%;
+        padding-bottom: 0px;
+        padding-left: 0%;
+		***/
+		
+    }
+	
+	
+/**************************************************************************************************/	
+	
+	
+/**MainBody-a**/
+ 
+.left-mainbody  
+        {   
+		
+		/***
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        padding-top: 12px;
+        padding-bottom: 0px;
+		***/
+		
+        padding-right: 2%;
+        padding-left: 2%;
+		
+		
+    	width: 45%;		
+		/***
+		height: 1800px;	
+		***/
+		float:left;/***浮动***/
+    }
+
+/**************************************************************************************************/	
+
+	
+	
+
+/**MainBody-b**/
+ 
+.right-mainbody  
+        {   
+		/***
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;		
+        margin-left: 0px;		
+        padding-top: 12px;
+        padding-bottom: 0px;
+		***/
+		
+        padding-right: 2%;
+        padding-left: 2%;
+		
+		
+		width: 46%;
+		/***
+		height: 1800px;
+		***/
+        float:right;/***浮动***/
+    }
+
+ 
+ 
+ 
+/**************************************************************************************************/	
+ 
+ 
+ 
+ 
+ 
+ /***
+ <!--footer无法显示，把containe或sidebar背景色去除就可以看到footer,我们应该在sidebar、containe结束的地方清除浮动，让浏览器知道如何处理footer层，
+而不是直接放到上面，在视觉上消失。我们在HTML中增加一个新层clearfloat，位于sidebar、containe结束的地方：
+-->
+ ***/
+/***设置的意义是：clear:both;是指不答应左右有浮动对象；高度为1px；溢出为隐藏；顶边距为-1px，即这一层实际上是不可见的，仅为清除浮动之用。***/
+.clearfloat 
+    {
+     clear:both;
+     height:1px;
+     overflow:hidden;
+     margin-top:-1px;
+    }
+
+/**************************************************************************************************/	
+ 
+ 
+	
+/**页面底部**/
+/***
+.footer 
+        {   
+	    
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+		
+        padding-top: 0px;
+        padding-right: 0%;
+        padding-bottom: 0px;
+        padding-left: 0%;
+		
+    }
+	***/
+
+	
+/**************************************************************************************************/	
+	
+	
+/***text center 文本居中 为什么不是font而是text呢？因为可以应用于任何表、区块，使任意在表、区块内的内容都居中，包括图像、flash、文字等***/
+.textcenter
+	{
+	text-align:center
+	
+	}
+
+/**************************************************************************************************/	
+
