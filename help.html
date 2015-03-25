@@ -5,18 +5,18 @@
  <html xmlns="http://www.w3.org/1999/xhtml">
      <head>
          <meta http-equiv="Content-Type" content="text/html; charset=GBK" />
-            <!--  http-equiv="Content-Type" ��ʾ�����ĵ�����content="text/HTML;  
-		    �ĵ�����mime���ͣ�����Ϊhtml,���JS����*text/javascript��charset=utf-8 ҳ���ַ�����
-		    ���룬eg:gb2312,iso-8859-1,utf-8, GBK����ͳһ����utf-8-->
+            <!--  http-equiv="Content-Type" 表示描述文档类型content="text/HTML;  
+		    文档类型mime类型，这里为html,如果JS就是*text/javascript，charset=utf-8 页面字符集，
+		    编码，eg:gb2312,iso-8859-1,utf-8, GBK建议统一采用utf-8-->
 
  
-         <title>ľͷľβ ����</title>                                        
+         <title>木头木尾 帮助</title>                                        
 
-         <link rel="stylesheet" type="text/css" href="css/layout.css" />   <!--���ӵ�һ��CSS�ⲿ��ʽ������layout-->
-         <link rel="stylesheet" type="text/css" href="css/background.css" />   <!--���ӵ�һ��CSS�ⲿ��ʽ������background-->
+         <link rel="stylesheet" type="text/css" href="css/layout.css" />   <!--链接到一个CSS外部样式表布局layout-->
+         <link rel="stylesheet" type="text/css" href="css/background.css" />   <!--链接到一个CSS外部样式表背景background-->
 		 
-         <style>a{TEXT-DECORATION:none}</style>            <!--ȥ���������»��� -->  
-         <link rel="shortcut icon" href="favicon.ico">  <!--��վͼ��Favicon.ico-->
+         <style>a{TEXT-DECORATION:none}</style>            <!--去掉超链接下划线 -->  
+         <link rel="shortcut icon" href="favicon.ico">  <!--网站图标Favicon.ico-->
 		 
 
      </head>  
@@ -25,58 +25,58 @@
 <body>
 
      <!--
-     /*** div�ܹ� ***/
+     /*** div架构 ***/
      <div class="container">
-            //ҳ�������ʼ
+            //页面层容器始
      	   //aa00
      	   
           <div class="topnav">
-                //������
+                //顶导航
           </div>
      	   
        
           <div class="header">
-                //ҳ��ͷ��
+                //页面头部
      		   //aa01
           </div>
      		
      	 <div class="pagebody">
-     	       //ҳ������ʼ
+     	       //页面主体始
      		   //aa02
      		   
      	     <div class="left-mainbody">
-                     //�����������MainBody
-     		        //left main�м䲻���ո���-����
+                     //左边主体内容MainBody
+     		        //left main中间不留空格，用-代替
      				//aa0201
      		 </div>
           	 
      	     <div class="right-mainbody">
-                     //�ұ���������MainBody
-     		        //right main�м䲻���ո���-����
+                     //右边主体内容MainBody
+     		        //right main中间不留空格，用-代替
      				//aa0202
      		 </div>
      		 
      		 <div id="clearfloat">
-     	            //���õ������ǣ�clear:both;��ָ����Ӧ�����и������󣻸߶�Ϊ1px�����Ϊ���أ����߾�Ϊ-1px������һ��ʵ�����ǲ��ɼ��ģ���Ϊ�������֮��
+     	            //设置的意义是：clear:both;是指不答应左右有浮动对象；高度为1px；溢出为隐藏；顶边距为-1px，即这一层实际上是不可见的，仅为清除浮动之用
      				//aa0203
      	     </div>
      		 
      	 </div>
-     	  //ҳ������ʼĩ
+     	  //页面主体始末
      	  //aa02
      	  
      
           <div class="footer">
-                 //ҳ��ײ�
+                 //页面底部
      			//aa03
           </div>
       
      </div>   
-         //ҳ�������ĩ
+         //页面层容器末
      	//aa00
         
-        //div�е��ò���layout��class="",��CSS��ʽ����Сд�ġ��㡱����.��������
-        //class��id����ȥ��������ǡ�.���͡�#�������������������ڣ�idѡ�����ÿ��ҳ��ֻ��ʹ��һ�Σ�����Ψһ�ģ���class�����������޴�ʹ�á�
+        //div中调用布局layout用class="",在CSS样式中以小写的“点”即“.”来命名
+        //class和id看上去区别仅仅是“.”和“#”，他们最大的区别在于：id选择符在每个页面只能使用一次，它是唯一的，而class可以随意无限次使用。
      
      -->
      
@@ -92,24 +92,24 @@
 
 
 
-<div class="container"> <!--ҳ�������ʼ aa00-->
+<div class="container"> <!--页面层容器始 aa00-->
 
-     <div class="topnav"><!--������-->
+     <div class="topnav"><!--顶导航-->
      </div>
 
-     <div class="header"><!--ҳ��ͷ��ʼ aa01-->
+     <div class="header"><!--页面头部始 aa01-->
 
-         <img src="images/logo_red.gif" title="ľͷľβ��������" alt="ľͷľβ��������" width="190" height="68" />Beta
+         <img src="images/logo_red.gif" title="木头木尾网络世界" alt="木头木尾网络世界" width="190" height="68" />Beta
 
-     </div><!--ҳ��ͷ��ĩ aa01-->
+     </div><!--页面头部末 aa01-->
 
 
       
-	   <!--  <hr /> -->      <!--����һ��ˮƽ��-->
+	   <!--  <hr /> -->      <!--创建一条水平线-->
 	  
 	  
 	  
-     <div class="pagebody">    	<!-- ҳ������ʼ aa02-->
+     <div class="pagebody">    	<!-- 页面主体始 aa02-->
             <br />
             <br />
             <br />
@@ -122,7 +122,7 @@
             <br />
             <br />
             <br />
-         <h4 style="color:#ff0000" align="center" >......����������......</h4>
+         <h4 style="color:#ff0000" align="center" >......帮助建设中......</h4>
             <br />
             <br />
             <br />
@@ -135,27 +135,27 @@
             <br />
             <br />
             <br />
-     </div><!-- ҳ������ĩ aa02-->
+     </div><!-- 页面主体末 aa02-->
 	 
 	 	 
 
 	 
-     <div class="footer"> <!--ҳ��ײ�ʼ aa03-->
+     <div class="footer"> <!--页面底部始 aa03-->
             <br />
 		 <p class="textcenter">
-             <a class="linkcolor" href="help.html" target="_blank">����</a>             
-             <a class="linkcolor" href="mailto:jinjinao@163.com">��ϵ����</a>
-             <a class="linkcolor" href="women.html" target="_blank">����ľͷľβ</a>
-             <a class="linkcolor" href="http://www.miibeian.gov.cn" target="_blank">��ICP֤201010��</a> 
+             <a class="linkcolor" href="help.html" target="_blank">帮助</a>             
+             <a class="linkcolor" href="mailto:jinjinao@163.com">联系我们</a>
+             <a class="linkcolor" href="women.html" target="_blank">关于木头木尾</a>
+             <a class="linkcolor" href="http://www.miibeian.gov.cn" target="_blank">粤ICP证201010号</a> 
              
-             Copyright  2000-2012 mtmw.net  All Rights Reserved&nbsp;&nbsp;Ver2012.02.11 19:00<!--    Version  �汾��¼  --> 
+             Copyright  2000-2012 mtmw.net  All Rights Reserved&nbsp;&nbsp;Ver2015.03.25 12:00<!--    Version  版本记录  --> 
 		 </p>
-            <p class="textcenter">�� �� �� �� ��&nbsp;&nbsp;&nbsp;�� �� �� �� ��</p>
+            <p class="textcenter">世 界 多 精 彩&nbsp;&nbsp;&nbsp;网 络 任 遨 游</p>
             <br />
 			
-     </div> <!--ҳ��ײ�ĩ aa03-->	 
+     </div> <!--页面底部末 aa03-->	 
 	 
-</div>  <!--ҳ�������ĩ aa00-->
+</div>  <!--页面层容器末 aa00-->
 
 </body>
 
