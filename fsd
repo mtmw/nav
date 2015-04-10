@@ -1,0 +1,189 @@
+[1mdiff --git a/help.html b/help.html[m
+[1mindex 69ce809..fd34c28 100644[m
+[1m--- a/help.html[m
+[1m+++ b/help.html[m
+[36m@@ -2,21 +2,21 @@[m
+ [m
+ [m
+ [m
+[31m- <html xmlns="http://www.w3.org/1999/xhtml">[m
+[32m+[m[32m <html>[m[41m[m
+      <head>[m
+[31m-         <meta http-equiv="Content-Type" content="text/html; charset=GBK" />[m
+[31m-            <!--  http-equiv="Content-Type" ±íÊ¾ÃèÊöÎÄµµÀàĞÍcontent="text/HTML;  [m
+[31m-		    ÎÄµµÀàĞÍmimeÀàĞÍ£¬ÕâÀïÎªhtml,Èç¹ûJS¾ÍÊÇ*text/javascript£¬charset=utf-8 Ò³Ãæ×Ö·û¼¯£¬[m
+[31m-		    ±àÂë£¬eg:gb2312,iso-8859-1,utf-8, GBK½¨ÒéÍ³Ò»²ÉÓÃutf-8-->[m
+[32m+[m[32m         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />[m[41m[m
+[32m+[m[32m            <!--  http-equiv="Content-Type" è¡¨ç¤ºæè¿°æ–‡æ¡£ç±»å‹content="text/HTML;[m[41m  [m
+[32m+[m		[32m    æ–‡æ¡£ç±»å‹mimeç±»å‹ï¼Œè¿™é‡Œä¸ºhtml,å¦‚æœJSå°±æ˜¯*text/javascriptï¼Œcharset=utf-8 é¡µé¢å­—ç¬¦é›†ï¼Œ[m[41m[m
+[32m+[m		[32m    ç¼–ç ï¼Œeg:gb2312,iso-8859-1,utf-8, GBKå»ºè®®ç»Ÿä¸€é‡‡ç”¨utf-8-->[m[41m[m
+ [m
+  [m
+[31m-         <title>Ä¾Í·Ä¾Î² °ïÖú</title>                                        [m
+[32m+[m[32m         <title>æœ¨å¤´æœ¨å°¾ å¸®åŠ©</title>[m[41m                                        [m
+ [m
+[31m-         <link rel="stylesheet" type="text/css" href="css/layout.css" />   <!--Á´½Óµ½Ò»¸öCSSÍâ²¿ÑùÊ½±í²¼¾Ölayout-->[m
+[31m-         <link rel="stylesheet" type="text/css" href="css/background.css" />   <!--Á´½Óµ½Ò»¸öCSSÍâ²¿ÑùÊ½±í±³¾°background-->[m
+[32m+[m[32m         <link rel="stylesheet" type="text/css" href="css/layout.css" />   <!--é“¾æ¥åˆ°ä¸€ä¸ªCSSå¤–éƒ¨æ ·å¼è¡¨å¸ƒå±€layout-->[m[41m[m
+[32m+[m[32m         <link rel="stylesheet" type="text/css" href="css/background.css" />   <!--é“¾æ¥åˆ°ä¸€ä¸ªCSSå¤–éƒ¨æ ·å¼è¡¨èƒŒæ™¯background-->[m[41m[m
+ 		 [m
+[31m-         <style>a{TEXT-DECORATION:none}</style>            <!--È¥µô³¬Á´½ÓÏÂ»®Ïß -->  [m
+[31m-         <link rel="shortcut icon" href="favicon.ico">  <!--ÍøÕ¾Í¼±êFavicon.ico-->[m
+[32m+[m[32m         <style>a{TEXT-DECORATION:none}</style>            <!--å»æ‰è¶…é“¾æ¥ä¸‹åˆ’çº¿ -->[m[41m  [m
+[32m+[m[32m         <link rel="shortcut icon" href="favicon.ico">  <!--ç½‘ç«™å›¾æ ‡Favicon.ico-->[m[41m[m
+ 		 [m
+ [m
+      </head>  [m
+[36m@@ -25,58 +25,58 @@[m
+ <body>[m
+ [m
+      <!--[m
+[31m-     /*** div¼Ü¹¹ ***/[m
+[32m+[m[32m     /*** divæ¶æ„ ***/[m[41m[m
+      <div class="container">[m
+[31m-            //Ò³Ãæ²ãÈİÆ÷Ê¼[m
+[32m+[m[32m            //é¡µé¢å±‚å®¹å™¨å§‹[m[41m[m
+      	   //aa00[m
+      	   [m
+           <div class="topnav">[m
+[31m-                //¶¥µ¼º½[m
+[32m+[m[32m                //é¡¶å¯¼èˆª[m[41m[m
+           </div>[m
+      	   [m
+        [m
+           <div class="header">[m
+[31m-                //Ò³ÃæÍ·²¿[m
+[32m+[m[32m                //é¡µé¢å¤´éƒ¨[m[41m[m
+      		   //aa01[m
+           </div>[m
+      		[m
+      	 <div class="pagebody">[m
+[31m-     	       //Ò³ÃæÖ÷ÌåÊ¼[m
+[32m+[m[41m     [m	[32m       //é¡µé¢ä¸»ä½“å§‹[m[41m[m
+      		   //aa02[m
+      		   [m
+      	     <div class="left-mainbody">[m
+[31m-                     //×ó±ßÖ÷ÌåÄÚÈİMainBody[m
+[31m-     		        //left mainÖĞ¼ä²»Áô¿Õ¸ñ£¬ÓÃ-´úÌæ[m
+[32m+[m[32m                     //å·¦è¾¹ä¸»ä½“å†…å®¹MainBody[m[41m[m
+[32m+[m[41m     [m		[32m        //left mainä¸­é—´ä¸ç•™ç©ºæ ¼ï¼Œç”¨-ä»£æ›¿[m[41m[m
+      				//aa0201[m
+      		 </div>[m
+           	 [m
+      	     <div class="right-mainbody">[m
+[31m-                     //ÓÒ±ßÖ÷ÌåÄÚÈİMainBody[m
+[31m-     		        //right mainÖĞ¼ä²»Áô¿Õ¸ñ£¬ÓÃ-´úÌæ[m
+[32m+[m[32m                     //å³è¾¹ä¸»ä½“å†…å®¹MainBody[m[41m[m
+[32m+[m[41m     [m		[32m        //right mainä¸­é—´ä¸ç•™ç©ºæ ¼ï¼Œç”¨-ä»£æ›¿[m[41m[m
+      				//aa0202[m
+      		 </div>[m
+      		 [m
+      		 <div id="clearfloat">[m
+[31m-     	            //ÉèÖÃµÄÒâÒåÊÇ£ºclear:both;ÊÇÖ¸²»´ğÓ¦×óÓÒÓĞ¸¡¶¯¶ÔÏó£»¸ß¶ÈÎª1px£»Òç³öÎªÒş²Ø£»¶¥±ß¾àÎª-1px£¬¼´ÕâÒ»²ãÊµ¼ÊÉÏÊÇ²»¿É¼ûµÄ£¬½öÎªÇå³ı¸¡¶¯Ö®ÓÃ[m
+[32m+[m[41m     [m	[32m            //è®¾ç½®çš„æ„ä¹‰æ˜¯ï¼šclear:both;æ˜¯æŒ‡ä¸ç­”åº”å·¦å³æœ‰æµ®åŠ¨å¯¹è±¡ï¼›é«˜åº¦ä¸º1pxï¼›æº¢å‡ºä¸ºéšè—ï¼›é¡¶è¾¹è·ä¸º-1pxï¼Œå³è¿™ä¸€å±‚å®é™…ä¸Šæ˜¯ä¸å¯è§çš„ï¼Œä»…ä¸ºæ¸…é™¤æµ®åŠ¨ä¹‹ç”¨[m[41m[m
+      				//aa0203[m
+      	     </div>[m
+      		 [m
+      	 </div>[m
+[31m-     	  //Ò³ÃæÖ÷ÌåÊ¼Ä©[m
+[32m+[m[41m     [m	[32m  //é¡µé¢ä¸»ä½“å§‹æœ«[m[41m[m
+      	  //aa02[m
+      	  [m
+      [m
+           <div class="footer">[m
+[31m-                 //Ò³Ãæµ×²¿[m
+[32m+[m[32m                 //é¡µé¢åº•éƒ¨[m[41m[m
+      			//aa03[m
+           </div>[m
+       [m
+      </div>   [m
+[31m-         //Ò³Ãæ²ãÈİÆ÷Ä©[m
+[32m+[m[32m         //é¡µé¢å±‚å®¹å™¨æœ«[m[41m[m
+      	//aa00[m
+         [m
+[31m-        //divÖĞµ÷ÓÃ²¼¾ÖlayoutÓÃclass="",ÔÚCSSÑùÊ½ÖĞÒÔĞ¡Ğ´µÄ¡°µã¡±¼´¡°.¡±À´ÃüÃû[m
+[31m-        //classºÍid¿´ÉÏÈ¥Çø±ğ½ö½öÊÇ¡°.¡±ºÍ¡°#¡±£¬ËûÃÇ×î´óµÄÇø±ğÔÚÓÚ£ºidÑ¡Ôñ·ûÔÚÃ¿¸öÒ³ÃæÖ»ÄÜÊ¹ÓÃÒ»´Î£¬ËüÊÇÎ¨Ò»µÄ£¬¶øclass¿ÉÒÔËæÒâÎŞÏŞ´ÎÊ¹ÓÃ¡£[m
+[32m+[m[32m        //divä¸­è°ƒç”¨å¸ƒå±€layoutç”¨class="",åœ¨CSSæ ·å¼ä¸­ä»¥å°å†™çš„â€œç‚¹â€å³â€œ.â€æ¥å‘½å[m[41m[m
+[32m+[m[32m        //classå’Œidçœ‹ä¸Šå»åŒºåˆ«ä»…ä»…æ˜¯â€œ.â€å’Œâ€œ#â€ï¼Œä»–ä»¬æœ€å¤§çš„åŒºåˆ«åœ¨äºï¼šidé€‰æ‹©ç¬¦åœ¨æ¯ä¸ªé¡µé¢åªèƒ½ä½¿ç”¨ä¸€æ¬¡ï¼Œå®ƒæ˜¯å”¯ä¸€çš„ï¼Œè€Œclasså¯ä»¥éšæ„æ— é™æ¬¡ä½¿ç”¨ã€‚[m[41m[m
+      [m
+      -->[m
+      [m
+[36m@@ -92,24 +92,24 @@[m
+ [m
+ [m
+ [m
+[31m-<div class="container"> <!--Ò³Ãæ²ãÈİÆ÷Ê¼ aa00-->[m
+[32m+[m[32m<div class="container"> <!--é¡µé¢å±‚å®¹å™¨å§‹ aa00-->[m[41m[m
+ [m
+[31m-     <div class="topnav"><!--¶¥µ¼º½-->[m
+[32m+[m[32m     <div class="topnav"><!--é¡¶å¯¼èˆª-->[m[41m[m
+      </div>[m
+ [m
+[31m-     <div class="header"><!--Ò³ÃæÍ·²¿Ê¼ aa01-->[m
+[32m+[m[32m     <div class="header"><!--é¡µé¢å¤´éƒ¨å§‹ aa01-->[m[41m[m
+ [m
+[31m-         <img src="images/logo_red.gif" title="Ä¾Í·Ä¾Î²ÍøÂçÊÀ½ç" alt="Ä¾Í·Ä¾Î²ÍøÂçÊÀ½ç" width="190" height="68" />Beta[m
+[32m+[m[32m         <img src="images/logo_red.gif" title="æœ¨å¤´æœ¨å°¾ç½‘ç»œä¸–ç•Œ" alt="æœ¨å¤´æœ¨å°¾ç½‘ç»œä¸–ç•Œ" width="190" height="68" />Beta[m[41m[m
+ [m
+[31m-     </div><!--Ò³ÃæÍ·²¿Ä© aa01-->[m
+[32m+[m[32m     </div><!--é¡µé¢å¤´éƒ¨æœ« aa01-->[m[41m[m
+ [m
+ [m
+       [m
+[31m-	   <!--  <hr /> -->      <!--´´½¨Ò»ÌõË®Æ½Ïß-->[m
+[32m+[m	[32m   <!--  <hr /> -->      <!--åˆ›å»ºä¸€æ¡æ°´å¹³çº¿-->[m[41m[m
+ 	  [m
+ 	  [m
+ 	  [m
+[31m-     <div class="pagebody">    	<!-- Ò³ÃæÖ÷ÌåÊ¼ aa02-->[m
+[32m+[m[32m     <div class="pagebody">    	<!-- é¡µé¢ä¸»ä½“å§‹ aa02-->[m[41m[m
+             <br />[m
+             <br />[m
+             <br />[m
+[36m@@ -122,7 +122,7 @@[m
+             <br />[m
+             <br />[m
+             <br />[m
+[31m-         <h4 style="color:#ff0000" align="center" >......°ïÖú½¨ÉèÖĞ......</h4>[m
+[32m+[m[32m         <h4 style="color:#ff0000" align="center" >......å¸®åŠ©å»ºè®¾ä¸­......</h4>[m[41m[m
+             <br />[m
+             <br />[m
+             <br />[m
+[36m@@ -135,27 +135,27 @@[m
+             <br />[m
+             <br />[m
+             <br />[m
+[31m-     </div><!-- Ò³ÃæÖ÷ÌåÄ© aa02-->[m
+[32m+[m[32m     </div><!-- é¡µé¢ä¸»ä½“æœ« aa02-->[m[41m[m
+ 	 [m
+ 	 	 [m
+ [m
+ 	 [m
+[31m-     <div class="footer"> <!--Ò³Ãæµ×²¿Ê¼ aa03-->[m
+[32m+[m[32m     <div class="footer"> <!--é¡µé¢åº•éƒ¨å§‹ aa03-->[m[41m[m
+             <br />[m
+ 		 <p class="textcenter">[m
+[31m-             <a class="linkcolor" href="help.html" target="_blank">°ïÖú</a>             [m
+[31m-             <a class="linkcolor" href="mailto:jinjinao@163.com">ÁªÏµÎÒÃÇ</a>[m
+[31m-             <a class="linkcolor" href="women.html" target="_blank">¹ØÓÚÄ¾Í·Ä¾Î²</a>[m
+[31m-             <a class="linkcolor" href="http://www.miibeian.gov.cn" target="_blank">ÔÁICPÖ¤201010ºÅ</a> [m
+[32m+[m[32m             <a class="linkcolor" href="help.html" target="_blank">å¸®åŠ©</a>[m[41m             [m
+[32m+[m[32m             <a class="linkcolor" href="mailto:jinjinao@163.com">è”ç³»æˆ‘ä»¬</a>[m[41m[m
+[32m+[m[32m             <a class="linkcolor" href="women.html" target="_blank">å…³äºæœ¨å¤´æœ¨å°¾</a>[m[41m[m
+[32m+[m[32m             <a class="linkcolor" href="http://www.miibeian.gov.cn" target="_blank">ç²¤ICPè¯201010å·</a>[m[41m [m
+              [m
+[31m-             Copyright  2000-2012 mtmw.net  All Rights Reserved&nbsp;&nbsp;Ver2012.02.11 19:00<!--    Version  °æ±¾¼ÇÂ¼  --> [m
+[32m+[m[32m             Copyright  2000-2012 mtmw.net  All Rights Reserved&nbsp;&nbsp;Ver2012.02.11 19:00<!--    Version  ç‰ˆæœ¬è®°å½•  -->[m[41m [m
+ 		 </p>[m
+[31m-            <p class="textcenter">ÊÀ ½ç ¶à ¾« ²Ê&nbsp;&nbsp;&nbsp;Íø Âç ÈÎ åÛ ÓÎ</p>[m
+[32m+[m[32m            <p class="textcenter">ä¸– ç•Œ å¤š ç²¾ å½©&nbsp;&nbsp;&nbsp;ç½‘ ç»œ ä»» é¨ æ¸¸</p>[m[41m[m
+             <br />[m
+ 			[m
+[31m-     </div> <!--Ò³Ãæµ×²¿Ä© aa03-->	 [m
+[32m+[m[32m     </div> <!--é¡µé¢åº•éƒ¨æœ« aa03-->[m[41m	 [m
+ 	 [m
+[31m-</div>  <!--Ò³Ãæ²ãÈİÆ÷Ä© aa00-->[m
+[32m+[m[32m</div>  <!--é¡µé¢å±‚å®¹å™¨æœ« aa00-->[m[41m[m
+ [m
+ </body>[m
+ [m
