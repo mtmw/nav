@@ -76,7 +76,7 @@ body
  
 .left-mainbody  
         {   
-        background: #FFFFFF;
+        background: #eef2f3;
 
     }
 
@@ -88,7 +88,7 @@ body
  
 .right-mainbody  
         {   
-        background: #FFFFFF;
+        background: #eef2f3;
 		
 
     }
@@ -145,8 +145,8 @@ margin-top:-1px;
 
 	
 /***全局变量***/	
-a:link {color: #8A2BE2}     /* 未访问的链接 */
-a:visited {color: #8A2BE2}   /* 已访问的链接 */
+a:link {color: #3f4c6b}     /* 未访问的链接 */
+a:visited {color: #3f4c6b}   /* 已访问的链接 */
 a:hover {color: #FF0000}     /* 鼠标移动到链接上 */
 a:active {color: #00FF00}    /* 选定的链接 */
 
